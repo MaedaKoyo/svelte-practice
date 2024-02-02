@@ -8,6 +8,7 @@
     <a href="/" class:active={pathname === '/'}>home</a>
     <a href="/about" class:active={pathname === '/about'}>about</a>
     <a href="/user" class:active={pathname === '/user'}>user</a>
+    <a href="/todo" class:active={pathname === '/todo'}>todo</a>
 </nav>
 
 <slot />
